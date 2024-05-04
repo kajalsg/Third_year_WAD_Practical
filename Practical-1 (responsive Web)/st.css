@@ -1,0 +1,151 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: sans-serif;
+    box-sizing: border-box;
+}
+
+body{
+    min-height: 100vh;
+}
+.side-bar{
+    position: fixed;
+    min-height: 100vh;
+    background-color: green;
+    color: white;
+    width:20vw;
+}
+
+.side-bar .brandName{
+    height:10vh;
+    width:20vw;
+    font-size: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.side-bar li{
+    display: flex;
+    align-items: center;
+    padding:10px 40px;
+    font-size: 20px;
+}
+.side-bar li:hover{
+    background-color: white;
+    color:green;
+    box-shadow: 0 4px 8px 0 rgb(0,0,0.1);
+}
+
+.side-bar ul li img{
+    height: 25px;
+    width: 25px;
+    padding:5px;
+}
+
+.container{
+    position:absolute;
+    right:0;
+    min-height: 100vh;
+    width:80vw;
+    background-color: #f1f1f1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container .header{
+    position: fixed;
+    right:0;
+    top:0;
+    height:15vh;
+    width:80vw;
+    box-shadow:  0 4px 8px 0 rgb(0,0,0.1);
+    display:flex;
+    justify-content: center;
+    align-items: center;
+    color:white;
+}
+
+.container .header .nav{
+    width:70%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.college-name{
+    color:green;
+}
+
+.container .header .user{
+    flex: 1;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+}
+.container .header .user a{
+    height: 40px;
+    width:90px;
+    border-radius: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: green;
+    color:white;
+    padding: 10px;
+}
+
+.container .header .user a:hover{
+    color:green;
+    background-color: white;
+    border: 2px solid green;
+}
+.container .header .user img{
+    height: 40px;
+    width:40px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-case img{
+    height:100px;
+    width:100px;
+} 
+
+.container .content{
+    position: relative;
+    min-height: 90vh;
+    margin-top: 15vh;
+}
+
+.container .content .cards{
+    padding:10px 20px;
+    display:flex;
+    align-items: center;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+.container .content .cards .card{
+    width: 250px;
+    height: 150px;
+    background: white;
+    margin: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    box-shadow: 0px 4px 8px 0px rgba(0, 0, 0, 0.4);
+}
+
+.container .content .cards .card:hover{
+    box-shadow: 0px 4px 8px 0px rgb(37, 120, 37);
+ 
+}
+
+
+
